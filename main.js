@@ -4,4 +4,4 @@ let cognome = prompt("Inserisci il tuo cognome");
 
 let colore = prompt("Inserisci il tuo colore preferito");
 
-document.writeln(nome + cognome + colore + 23)
+document.writeln(`<p>La tua password è: <strong>${nome + cognome + colore + 23}</strong></p>`)
